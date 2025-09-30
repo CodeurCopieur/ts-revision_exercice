@@ -17,3 +17,10 @@ infos2.push("string");
 infos2.push(true);
 infos2.push(40);
 console.log(infos2);
+// exercice 3 : erreur de type
+var member = {
+    name: "John",
+    age: 20,
+    isLoggedIn: true
+};
+console.log(member.age);

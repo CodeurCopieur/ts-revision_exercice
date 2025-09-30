@@ -31,4 +31,13 @@ let member: object = {
 }
 console.log(member.age);
 
+// exercice 4
 
+
+let member1: {name: string, age: number, isLoggedIn: boolean} = {
+    name: "John",
+    age: 20,
+    isLoggedIn: true 
+}
+
+console.log(member1.age);

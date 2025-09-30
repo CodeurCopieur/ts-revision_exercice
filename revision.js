@@ -24,3 +24,10 @@ var member = {
     isLoggedIn: true
 };
 console.log(member.age);
+// exercice 4
+var member1 = {
+    name: "John",
+    age: 20,
+    isLoggedIn: true
+};
+console.log(member1.age);

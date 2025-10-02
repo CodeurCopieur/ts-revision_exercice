@@ -52,3 +52,10 @@ let member2 = {
 }
 
 console.log(member2.name);
+
+// exercice 6
+
+console.log('data1', typeof member);
+
+member = []
+console.log('data2', typeof member);

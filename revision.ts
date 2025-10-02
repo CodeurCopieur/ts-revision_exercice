@@ -29,7 +29,7 @@ let member: object = {
     age: 20,
     isLoggedIn: true 
 }
-console.log(member.age);
+// console.log(member.age); erreur
 
 // exercice 4
 
@@ -41,3 +41,14 @@ let member1: {name: string, age: number, isLoggedIn: boolean} = {
 }
 
 console.log(member1.age);
+
+
+// exercice 5
+
+let member2 = {
+    name: "John",
+    age: 20,
+    isLoggedIn: true 
+}
+
+console.log(member2.name);

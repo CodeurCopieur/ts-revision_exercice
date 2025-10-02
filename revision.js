@@ -23,7 +23,7 @@ var member = {
     age: 20,
     isLoggedIn: true
 };
-console.log(member.age);
+// console.log(member.age); erreur
 // exercice 4
 var member1 = {
     name: "John",
@@ -31,3 +31,10 @@ var member1 = {
     isLoggedIn: true
 };
 console.log(member1.age);
+// exercice 5
+var member2 = {
+    name: "John",
+    age: 20,
+    isLoggedIn: true
+};
+console.log(member2.name);

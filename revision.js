@@ -42,3 +42,8 @@ console.log(member2.name);
 console.log('data1', typeof member);
 member = [];
 console.log('data2', typeof member);
+// exercice 7
+var infos3;
+infos3 = ["string", 40];
+infos3[0] = 'salut';
+infos3.push(10);

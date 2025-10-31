@@ -1,3 +1,8 @@
+// unknown est un type de données qui permet de stocker n'importe quelle valeur
+// il est utilisé pour stocker des valeurs qui ne sont pas connues à l'avance
+// a utiliser avec parcimonie et avec des interfaces
+// verifier le type de la variable avant de l'utiliser et utiliser l'assertion de type pour forcer le type
+
 let inputNumber: unknown;
 inputNumber = 42;
 console.log(typeof inputNumber, ' => inputNumber');
